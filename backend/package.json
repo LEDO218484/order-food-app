@@ -1,14 +1,12 @@
 {
   "name": "backend",
-  "homepage": "https://github.com/LEDO218484/order-food-app.git",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
